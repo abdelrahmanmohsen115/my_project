@@ -1,0 +1,10 @@
+{
+   "name":"abdo",
+    "age":20,
+    "score":{
+        "scoermath":20,
+        "scoernon":30,
+    },
+ 
+    "my_skills":["html","css","js"]
+}

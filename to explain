@@ -1,0 +1,65 @@
+// mathods string 
+// 1...length عاوز اعد الحروف الكلمه 
+// 2...charAT(),at(),charCodeAt(),[]لو عايز اوصل لحاجه
+// 3...slice()عايو اقطع حاجه 
+// 4. touppercase ,tolowercase عايز اكبر حاجه او اضغر حاجه
+// trim ,trimStart,trimEnd علشان اشيل االمسافات 
+// padding padStart ,padEnd
+// repeatعلشان تكررالكلمه
+// replaceعلشان لو عايز اغير كلمه مكان كلمه
+// replaceAll علشان لو عايز اغير حاجه مكان حاجه
+// mathods numper
+// 1.toString علشان تحول من كلمه لحرف
+// 2.tofaxedبتجيب الحروف اللي بعد العلامه العشريه
+// parseint بتحول الرقم العشري اللي رقم صحيح 
+// parsefloat وبتحول الرقم الصحيح اللي عشري
+// let name =["abdo","mohsen","ahmad"]
+// //accessing arrey
+// console.log(name[1])
+// name[2]="ibrahim"...................
+// console.log(name)
+// دي مفروض تطلع abdo mohsen ahmad
+// لا لا لا
+// abdo mohsen ibrahim............
+// at بتدعم الرقام السالبه\
+
+//جدول الضرب 
+
+// for(let x = 0; x <=12 ;x++){
+//      for(let j = 0 ; j <=12 ; j++)
+
+//          console.log(` ${x} * ${j} = ${x*j}`)
+// }
+
+// scope global مكن استخدمه في اي حاجه
+
+// let name ="abdo"       //scope global
+// console.log(name)
+
+
+//scope localمش ينفع استخدمه غير في function
+
+// function nasted(){
+//     let name1 = "ALa"      //scope local
+//     console.log(`hello ${name1}`)
+// }
+// nasted()
+
+//scope block يعني كل اللي جو if اسمه scope block
+// var x=1
+// if(true){    ////scope block
+//     let x =1     ///scope block
+//     console.log(x)   ///scope block
+// }
+// scope laxical يعني بدور علي المتغير قي اي scope
+// let x = 2 
+// function name (){
+//     // scope laxical 
+    
+//     function hello(){
+//         // let x= 1 
+//     console.log(x)
+// }
+// hello()  //scope laxical
+// }
+// name () 
